@@ -1,10 +1,15 @@
 /* src/App.css */
+@font-face {
+  font-family: 'Doris';
+  src: url(assets/fonts/Dosis-VariableFont_wght.ttf);
+}
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Doris', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2; /* Light grey background */
   color: #333; /* Dark grey text color */
+  background-image: url(./assets/images/background.jpg);
 }
 
 .app {
@@ -13,19 +18,32 @@ body {
 
 .app-header {
   background-color: #0077cc; /* Light blue header background */
-  padding: 20px;
+  padding: 10px;
   color: white;
 }
 
 .app-main {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.app-footer {
+  padding: 10px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.project-main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-content: space-evenly;
   padding: 20px;
 }
 
 .project {
-  border: 1px solid #ddd;
+  border: 1px solid #000000;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;
@@ -57,11 +75,47 @@ body {
   text-decoration: underline;
 }
 
-.app-footer {
-  background-color: #0077cc; /* Light blue footer background */
-  padding: 10px;
+.about-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar-main { 
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 1.5em;
+  padding-bottom: 2em;
+}
+
+.navlink-container { 
+  display:flex;
+  gap: 1.5em;
+  padding-right: 5em;
+}
+
+.navlink {
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
   color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+}
+
+.navbar-logo-container {
+  padding-left: 10em;
+}
+
+.navbar-logo {
+  width: 5em;
+  height: auto;
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover;
+}
+
+.navlink:hover{
+  color:#1a73e7;
+  cursor: pointer;
 }

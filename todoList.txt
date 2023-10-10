@@ -1,0 +1,7 @@
+Navbar
+    - transparent - done
+    - Links need to be a better font and no underline - done
+    - when hover link, change color and mouse to pointer - done
+pick a nice background
+About page
+Project page images
