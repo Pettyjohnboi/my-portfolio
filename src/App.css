@@ -35,7 +35,15 @@ body {
   width: 100%;
 }
 
+/*PROJECT STLYING*/
+
 .project-main {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+}
+
+.project-container {
   display: flex;
   flex-wrap: wrap;
   align-content: space-evenly;
@@ -43,11 +51,15 @@ body {
 }
 
 .project {
-  border: 1px solid #000000;
-  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid #0d0083c4;
+  border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  width: 300px;
+  width: 15em;
+  height: auto;
   text-align: left;
   background-color: #fff; /* White background for projects */
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Light grey box shadow */
@@ -62,7 +74,7 @@ body {
 }
 
 .project-links {
-  margin-top: 10px;
+  margin-top: auto;
 }
 
 .project-links a {
@@ -77,10 +89,29 @@ body {
 
 .about-main {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   padding: 20px;
+  color: white;
+}
+
+.about-container { 
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: initial;
+  padding: 10em;
+  width: 50%;
+}
+
+.about-message { 
+  width: 50%;
+  font-size: 1.2em;
+}
+
+.about-logo {
+  width: 15em;
+  height: auto;
+  object-fit: cover;
 }
 
 .navbar-main { 

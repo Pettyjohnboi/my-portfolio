@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Projects from './pages/Projects';
 import AboutMe from './pages/AboutMe';
 import Resume from './pages/Resume';
-import Background from './assets/images/background.jpg';
 
 function App() {
   return (

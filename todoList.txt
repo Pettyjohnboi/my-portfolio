@@ -2,6 +2,13 @@ Navbar
     - transparent - done
     - Links need to be a better font and no underline - done
     - when hover link, change color and mouse to pointer - done
-pick a nice background
+pick a nice background - done
 About page
-Project page images
+    - a detailed paragraph of my skills, education and passion as programmer - done
+    - picture of me - done
+Project page
+    - project images
+    - align links at bottom - done
+                    - wrap projects down the left side of the page 
+                    -create a more detail view of the project on the right
+    -
