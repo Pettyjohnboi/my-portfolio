@@ -1,7 +1,6 @@
 // src/components/Project.js
 import React from 'react';
 
-
 const Project = ({ title, description, github, demo}) => (
   <div className="project">
     <h2>{title}</h2>

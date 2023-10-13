@@ -6,9 +6,16 @@ pick a nice background - done
 About page
     - a detailed paragraph of my skills, education and passion as programmer - done
     - picture of me - done
-Project page
-    - project images
+Project element
+    - project images - now working idk why
     - align links at bottom - done
                     - wrap projects down the left side of the page 
                     -create a more detail view of the project on the right
-    -
+project page
+    - make a prettier way to display element
+
+Resume page
+    - display resume
+    - have a download button
+
+

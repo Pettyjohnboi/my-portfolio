@@ -7,7 +7,7 @@ function AboutMe(){
         <div className="about-main">
             <div className="about-container">
                 <div className="about-img"> 
-                    <img class="about-logo" src={Image} ></img>
+                    <img class="about-logo" src={Image} alt="This is me"></img>
                 </div>
                 <div className="about-message"> 
                     <span>&nbsp;&nbsp;&nbsp;I graduated at Queen's University in Computer Science in 2021.
