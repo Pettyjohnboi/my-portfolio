@@ -1,30 +1,29 @@
-import resumeImg from '../assets/images/resume.jpg';
-import resumePDF from '../assets/documents/resume.pdf';
+import resumeImg from "../assets/images/resume.jpg";
+import resumePDF from "../assets/documents/resume.pdf";
 
-function Resume(){
+function Resume() {
+   const handleDownload = () => {
+      const pdfUrl = resumePDF;
+      const link = document.createElement("a");
 
-    const handleDownload = () => { 
+      link.href = pdfUrl;
+      link.download = "jordan-pettyjohn-resume.pdf";
 
-        const pdfUrl = resumePDF;
-        const link = document.createElement('a');
-        
-        link.href = pdfUrl;
-        link.download = 'jordan-pettyjohn-resume.pdf';
+      document.body.appendChild(link);
 
-        document.body.appendChild(link);
+      link.click();
 
-        link.click();
+      document.body.removeChild(link);
+   };
 
-        document.body.removeChild(link);
-    }
-
-    return (
-        <div className="resume-main">
-            <div>Download Pdf</div>
-            <img className="resume-img" src={resumeImg} alt="This is me"></img>
-            <button className="resume-button" onClick={handleDownload}>Download Pdf</button>
-        </div>
-    );
+   return (
+      <div className="resume-main">
+         <img className="resume-img" src={resumeImg} alt="This is me"></img>
+         <button className="resume-button" onClick={handleDownload}>
+            Download Pdf
+         </button>
+      </div>
+   );
 }
 
 export default Resume;

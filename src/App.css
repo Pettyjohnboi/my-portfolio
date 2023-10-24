@@ -1,170 +1,183 @@
 /* src/App.css */
 @font-face {
-  font-family: 'Doris';
-  src: url(assets/fonts/Dosis-VariableFont_wght.ttf);
+    font-family: "Doris";
+    src: url(assets/fonts/Dosis-VariableFont_wght.ttf);
 }
 
 body {
-  font-family: 'Doris', sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333; /* Dark grey text color */
-  background-image: url(./assets/images/background.jpg);
+    font-family: "Doris", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark grey text color */
+    background-image: url(./assets/images/background.jpg);
 }
 
 .app {
-  text-align: center;
+    text-align: center;
 }
 
 .app-header {
-  background-color: #0077cc; /* Light blue header background */
-  padding: 10px;
-  color: white;
+    background-color: #0077cc; /* Light blue header background */
+    padding: 10px;
+    color: white;
 }
 
 .app-main {
-  display:flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .app-footer {
-  padding: 10px;
-  color: white;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /*PROJECT STLYING*/
 
 .project-main {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 2em;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
 }
 
 .project-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-evenly;
-  padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    padding: 20px;
+}
+
+.project-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid #0d0083c4;
+    background-color: #fff;
+    width: 60vw;
+    height: 60vh;
+    margin-right: 2vw;
 }
 
 .project {
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 3px solid #0d0083c4;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  width: 15em;
-  height: auto;
-  text-align: left;
-  background-color: #fff; /* White background for projects */
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Light grey box shadow */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid #0d0083c4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 15em;
+    height: auto;
+    text-align: left;
+    background-color: #fff; /* White background for projects */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Light grey box shadow */
 }
 
 .project h2 {
-  color: #0077cc; /* Light blue text color */
+    color: #0077cc; /* Light blue text color */
+    padding: 0;
+    margin: 5px;
 }
 
 .project p {
-  color: #666; /* Medium grey text color */
+    color: #666; /* Medium grey text color */
 }
 
 .project-links {
-  margin-top: auto;
+    margin-top: auto;
 }
 
 .project-links a {
-  margin-right: 10px;
-  color: #0077cc; /* Light blue link color */
-  text-decoration: none;
+    margin-right: 10px;
+    color: #0077cc; /* Light blue link color */
+    text-decoration: none;
 }
 
 .project-links a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .about-main {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
 }
 
-.about-container { 
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  text-align: initial;
-  padding: 10em;
-  width: 50%;
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: initial;
+    padding: 10em;
+    width: 50%;
 }
 
-.about-message { 
-  width: 50%;
-  font-size: 1.2em;
+.about-message {
+    width: 50%;
+    font-size: 1.2em;
 }
 
 .about-logo {
-  width: 15em;
-  height: auto;
-  object-fit: cover;
+    width: 15em;
+    height: auto;
+    object-fit: cover;
 }
 
-.navbar-main { 
-  display: flex;
-  justify-content:space-between;
-  align-items:center;
-  padding: 1.5em;
-  padding-bottom: 2em;
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    padding-bottom: 2em;
 }
 
-.navlink-container { 
-  display:flex;
-  gap: 1.5em;
-  padding-right: 5em;
+.navlink-container {
+    display: flex;
+    gap: 1.5em;
+    padding-right: 5em;
 }
 
 .navlink {
-  font-size: 20px;
-  font-style: normal;
-  text-decoration: none;
-  color: white;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
 }
 
 .navbar-logo-container {
-  padding-left: 10em;
+    padding-left: 10em;
 }
 
 .navbar-logo {
-  width: 5em;
-  height: auto;
-  border-radius: 50%; /* Make the image circular */
-  object-fit: cover;
+    width: 5em;
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover;
 }
 
-.navlink:hover{
-  color:#1a73e7;
-  cursor: pointer;
+.navlink:hover {
+    color: #1a73e7;
+    cursor: pointer;
 }
 
-.resume-main { 
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 2em;
-  padding-bottom: 4em;
+.resume-main {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 2em;
+    padding-bottom: 4em;
+    padding-left: 9vw;
 }
 
 .resume-img {
-  width: 35%;
-  height: auto;
+    width: 35%;
+    height: auto;
 }
 
-.resume-button{ 
-  width: auto;
-  height: 2em;
+.resume-button {
+    width: auto;
+    height: 2em;
 }
